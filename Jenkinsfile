@@ -9,7 +9,6 @@ pipeline {
 				
 				echo 'Building...'
 				sh 'np install'
-				sh 'npm run build'
 			}
 			
 		}
