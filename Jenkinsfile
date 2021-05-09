@@ -8,7 +8,7 @@ pipeline {
 			steps{
 				
 				echo 'Building...'
-				sh 'npm install'
+				sh 'np install'
 				sh 'npm run build'
 			}
 			post{
